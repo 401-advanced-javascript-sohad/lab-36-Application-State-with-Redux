@@ -1,14 +1,18 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import App from './app.js';
+
 import store from './store/index.js';
-function Main (){
-  return(
+
+function Main() {
+  return (
     <Provider store={store}>
-      <App/>
+      <App />
     </Provider>
   );
 }
+
 const root = document.getElementById('root');
-ReactDOM.render(<Main/>,root);
+ReactDOM.render(<Main />, root);

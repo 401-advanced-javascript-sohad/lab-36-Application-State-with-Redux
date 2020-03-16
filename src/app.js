@@ -1,11 +1,19 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
-import Status from './component/status.js';
-import Update from '../src/components/catagore-counter.js';
-export default props =>{
-  return(
+// import Header from '../src/modal/header.js';
+// import Footer from './modal/footer.js';
+
+import Status from '../src/components/status.js';
+import ShowProduct from '../src/components/catagore-counter.js';
+
+export default props => {
+  console.log('propsssss', props);
+  return (
     <>
-      <Update/>
-      <Status/>
+      {/* <Header /> */}
+      <ShowProduct />
+      <Status />
+      {/* <Footer /> */}
     </>
   );
 };
