@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/401-advanced-javascript-sohad/lab-36-Application-State-with-Reduxstatic/js/main.663d3ce2.chunk.js",
+    "main.js.map": "/401-advanced-javascript-sohad/lab-36-Application-State-with-Reduxstatic/js/main.663d3ce2.chunk.js.map",
+    "runtime-main.js": "/401-advanced-javascript-sohad/lab-36-Application-State-with-Reduxstatic/js/runtime-main.cf08bb37.js",
+    "runtime-main.js.map": "/401-advanced-javascript-sohad/lab-36-Application-State-with-Reduxstatic/js/runtime-main.cf08bb37.js.map",
+    "static/js/2.aaa402fe.chunk.js": "/401-advanced-javascript-sohad/lab-36-Application-State-with-Reduxstatic/js/2.aaa402fe.chunk.js",
+    "static/js/2.aaa402fe.chunk.js.map": "/401-advanced-javascript-sohad/lab-36-Application-State-with-Reduxstatic/js/2.aaa402fe.chunk.js.map",
+    "index.html": "/401-advanced-javascript-sohad/lab-36-Application-State-with-Reduxindex.html",
+    "precache-manifest.763d79142e96a4deaddf5e740322625c.js": "/401-advanced-javascript-sohad/lab-36-Application-State-with-Reduxprecache-manifest.763d79142e96a4deaddf5e740322625c.js",
+    "service-worker.js": "/401-advanced-javascript-sohad/lab-36-Application-State-with-Reduxservice-worker.js",
+    "static/js/2.aaa402fe.chunk.js.LICENSE.txt": "/401-advanced-javascript-sohad/lab-36-Application-State-with-Reduxstatic/js/2.aaa402fe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf08bb37.js",
+    "static/js/2.aaa402fe.chunk.js",
+    "static/js/main.663d3ce2.chunk.js"
+  ]
+}

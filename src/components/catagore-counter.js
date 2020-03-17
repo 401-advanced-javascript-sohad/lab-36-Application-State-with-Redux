@@ -1,0 +1,35 @@
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import { connect } from 'react-redux';
+import { changeSelected } from '../store/categories.js';
+import { chooseList } from '../store/products.js';
+
+const status = props => {
+  console.log('ssssssss', props.current);
+
+  return (
+    <>
+      <h2>{props.current.current}</h2>
+
+      {props.current.categories.map((val, idx) => {
+        return <button key={idx} onClick={() => {
+          props.changeSelected(val);
+          props.chooseList(val);
+        }} className='category'>
+          {val}
+        </button>;
+      })}
+    </>
+  );
+};
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+const mapStateToProps = state => {
+  return { current: state.selector };
+};
+
+const mapDespatchToProps = { changeSelected, chooseList };
+
+export default connect(mapStateToProps, mapDespatchToProps)(status);
