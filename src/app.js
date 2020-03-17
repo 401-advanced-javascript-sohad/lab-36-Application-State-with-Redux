@@ -1,19 +1,24 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-// import Header from '../src/modal/header.js';
-// import Footer from './modal/footer.js';
+import Header from '../src/modal/header/header.js';
+import Footer from './modal/footer/Footer.js';
+import Categories from './components/catagore-counter.js';
+import Products from './components/products.js';
+import './style.scss';
 
-import Status from '../src/components/status.js';
-import ShowProduct from '../src/components/catagore-counter.js';
+class App extends React.Component {
 
-export default props => {
-  console.log('propsssss', props);
-  return (
-    <>
-      {/* <Header /> */}
-      <ShowProduct />
-      <Status />
-      {/* <Footer /> */}
-    </>
-  );
-};
+  render() {
+    console.log('sohaddddd');
+    return (
+      <>
+        <Header />
+        <Categories />
+        <Products />
+        <Footer />
+      </>
+    );
+  }
+}
+
+export default App;
